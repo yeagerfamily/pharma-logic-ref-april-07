@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope & Patience</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: radial-gradient(circle, #1a1a2e 0%, #16213e 100%);
+            color: #e94560;
+            font-family: 'Georgia', serif;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            padding: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: normal;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            text-shadow: 0 0 20px rgba(233, 69, 96, 0.5);
+        }
+
+        .urdu-text {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .line {
+            width: 50px;
+            height: 2px;
+            background-color: #e94560;
+            margin: 20px auto;
+            animation: expand 2s infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes expand {
+            from { width: 30px; }
+            to { width: 100px; }
+        }
+
+        .subtext {
+            color: #95a5a6;
+            font-size: 0.9rem;
+            margin-top: 30px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="line"></div>
+        <h1>
+            Waqt bura hai par<br>
+            <strong>kabhi toh acha ayega...</strong>
+        </h1>
+        <p style="font-size: 1.5rem; color: #f9f9f9;">
+            Khuda mera bhi hai,<br>
+            akhir kab tak rulayega?
+        </p>
+        <div class="line"></div>
+        <div class="subtext"></div>
+    </div>
+
+</body>
+</html>
